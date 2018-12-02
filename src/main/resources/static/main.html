@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/webjars/extjs/6.2.0/build/classic/theme-classic/resources/theme-classic-all-debug.css"
+          rel="stylesheet">
+    <script src="/webjars/extjs/6.2.0/build/ext-all-debug.js"></script>
+    <script type="text/javascript">
+        Ext.onReady(function () {
+            Ext.create('Ext.Panel', {
+                renderTo: 'helloWorldPanel',
+                height: 100,
+                width: 200,
+                title: 'Hello world',
+                html: 'First Ext JS Hello World Program'
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="helloWorldPanel"></div>
+</body>
+</html>
